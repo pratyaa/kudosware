@@ -1,0 +1,43 @@
+.top{
+    text-align:center;
+    background-color:#c1d1ec;
+}
+.mybtn{
+    color:#1b5b6b;
+    margin-left: 10px;
+    border-color:#1b5b6b ;
+
+}
+
+.searchbar{
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+.inputfield{
+    box-shadow: 4px 4px 10px ;
+    border-radius: 10px;
+}
+
+.forms{
+        padding:auto;
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+}
+
+.heading{
+        color:#1b5b6b;
+}
+
+.mycard{
+    margin:5px;
+    margin-top:10px;
+    box-shadow: 1px 1px 8px;
+    background-color:#1b5b6b;
+}
+
+.mycardcontainer{
+    margin-top:80px;
+}
