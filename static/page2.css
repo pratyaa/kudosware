@@ -8,6 +8,9 @@
     border-color:#1b5b6b ;
 
 }
+.mybtn:hover{
+    background-color:#1b5b6b ;
+}
 
 .searchbar{
     height: 60px;
@@ -29,6 +32,7 @@
 
 .heading{
         color:#1b5b6b;
+        font-family: 'Delius', cursive;
 }
 
 .mycard{
@@ -36,6 +40,7 @@
     margin-top:10px;
     box-shadow: 1px 1px 8px;
     background-color:#1b5b6b;
+    color:white;
 }
 
 .mycardcontainer{

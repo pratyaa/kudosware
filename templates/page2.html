@@ -20,16 +20,17 @@
     </div>
 
     <div class=" mycardcontainer row row-cols-3 align-items-center  ">
-
-        {%for file_name in file_names %}
-        <div class="col">
+        
+          {%for file_name in file_names %}
+            <div class="col">
             <div class="card mycard">
                 <div class="card-body">
                     <object type="pdf" data="{{'.\\Data\\' + file_name }}" >{{file_name}}</object>
                 </div>
              </div>
-         </div>
-        {% endfor %}
+           </div>
+          {% endfor %}
+        
 
        
     </div>
