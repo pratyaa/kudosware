@@ -1,9 +1,18 @@
-    
-  
-  Searches keywords from all of your given pdfs.
-  
- Before running the app use pip install flask
- To run - python app.py
+# SEARCHER
 
-•	Data/extractedData.json is a json created using given set of pdf by first extracting text  from pdfs and then creating a dict  with keys as file name and values are represented 
-  again by a dict with  words occurring in file as key and mapped to frequency of their occurrence.
+## About
+
+Enter the keyword and Searcher will grab all the pdfs consisting that keyword.
+
+## Setting up the project
+* Install flask (considering u already have pyhton env setup)
+  
+  ```     pip install flask```
+
+* Clone the repository
+
+  ```      https://github.com/pratyaa/kudosware.git  ```
+* Run the project
+
+  ```     python app.py ```
+    
